@@ -4,9 +4,9 @@
 		"annotations": [],
 		"type": "PostgreSqlV2",
 		"typeProperties": {
-			"server": "ep-empty-hall-bdvl5qla-pooler.c-8.us-east-2.aws.neon.tech",
+			"server": "ep-lucky-lab-bd01jxes-pooler.c-8.us-east-2.aws.neon.tech",
 			"port": 5432,
-			"database": "srm",
+			"database": "neondb",
 			"username": "neondb_owner",
 			"password": {
 				"type": "AzureKeyVaultSecret",
