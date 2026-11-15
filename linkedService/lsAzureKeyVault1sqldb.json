@@ -1,0 +1,10 @@
+{
+	"name": "lsAzureKeyVault1sqldb",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://caresynckeyvault1997.vault.azure.net/"
+		}
+	}
+}
