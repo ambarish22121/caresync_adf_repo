@@ -51,7 +51,7 @@
 						"referenceName": "Parquet1",
 						"type": "DatasetReference",
 						"parameters": {
-							"container": "landing",
+							"container": "caresyncsource",
 							"folder": "landing"
 						}
 					}
