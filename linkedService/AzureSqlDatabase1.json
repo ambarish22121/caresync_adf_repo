@@ -1,0 +1,23 @@
+{
+	"name": "AzureSqlDatabase1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "edwprod.database.windows.net",
+			"database": "edw-prd",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "edw",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "lsAzureKeyVault1sqldb",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sqlaazuresqldb-pass"
+			}
+		}
+	}
+}
